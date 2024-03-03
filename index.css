@@ -1,0 +1,136 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9e8e4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0; 
+    width: 100%; 
+}
+
+
+h1.titleNavbar {
+    text-align: center;
+    color: #481700;
+    font-size: 3rem;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 450;
+    font-style: normal;
+    height: 10%;
+}
+
+nav {
+    overflow: hidden;
+    border-top: 2px solid #481700;
+    border-bottom: 2px solid #481700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 35px 0 35px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #481700;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 50px 0 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #481700;
+}
+
+nav a:active {
+    color: #a2826b;
+}
+
+.infoContainer {  /* */
+    width: 100%;
+    display: flex;
+}
+
+/* CONTAINER IMAGE */
+.infoContainerImg  {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.infoContainerImg img {
+    display: flex;
+    width: 50%;
+    margin-top: 25px;
+}
+
+/* CONTAINER TEXT */
+.infoContainerText {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Alinea el texto al centro horizontalmente */
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Alinea el texto al principio verticalmente */
+}
+
+.titleContainer h1 {
+    text-align: left;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.parrafoContainer {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea al inicio verticalmente */
+    align-items: flex-start; /* Alinea al inicio horizontalmente */
+    text-align: left;
+}
+
+.parrafoContainer p {
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.containerMinimalist {
+    background-color: #481700;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittleMinimalist {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.tittleMinimalist h1 {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+
+.infoMinimalist {
+    color: #a2826b;
+}
