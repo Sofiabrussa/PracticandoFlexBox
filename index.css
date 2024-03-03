@@ -57,13 +57,14 @@ nav a:active {
     color: #a2826b;
 }
 
-.infoContainer {  /* */
+.infoContainer {  
     width: 100%;
     display: flex;
+    flex-direction: row;
 }
 
 /* CONTAINER IMAGE */
-.infoContainerImg  {
+.infoContainerImg {
     width: 40%;
     display: flex;
     align-items: center;
@@ -71,8 +72,7 @@ nav a:active {
 }
 
 .infoContainerImg img {
-    display: flex;
-    width: 50%;
+    width: 65%;
     margin-top: 25px;
 }
 
@@ -87,9 +87,6 @@ nav a:active {
 }
 
 .titleContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-start; /* Alinea el texto al principio verticalmente */
 }
